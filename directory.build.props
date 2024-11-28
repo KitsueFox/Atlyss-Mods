@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <PropertyGroup>
+        <!-- ATLYSS install folder. This is usually found automatically, uncomment to overwrite.
+             Needs to be your path to the base ATLYSS folder. -->
+        <ATLYSS_INSTALL>C:\Program Files (x86)\Steam\steamapps\common\ATLYSS</ATLYSS_INSTALL>
+
+        <ATLYSS_MANAGED>$(ATLYSS_INSTALL)\ATLYSS_Data\Managed</ATLYSS_MANAGED>
+
+        <!-- Melonloader install folder. This is usually found automatically, uncomment to overwrite.
+             Note the default value $(ATLYSS_INSTALL)\MelonLoader\net35 requires the ATLYSS_INSTALL property to be set. -->
+        <MELON_PATH>$(ATLYSS_INSTALL)\MelonLoader\net35</MELON_PATH>
+
+        <!-- This is the folder where your build gets copied to when using the post-build automations.
+             Note the default value $(ATLYSS_INSTALL)\mods requires the ATLYSS_INSTALL property to be set. -->
+        <MOD_DEPLOYPATH>$(ATLYSS_INSTALL)\Mods</MOD_DEPLOYPATH>
+
+        <OutputPath>$(MsBuildThisFileDirectory)\Output\$(Configuration)\</OutputPath>
+    </PropertyGroup>
+
+    <ItemGroup Condition="'$(NoModReferences)' != 'true'">
+        <PackageReference Include="LavaGang.MelonLoader" Version="0.6.6" IncludeAssets="compile"/>
+        <PackageReference Include="UnityEngine.Modules" Version="2021.3.16" IncludeAssets="compile"/>
+        
+        <Reference Include="Assembly-CSharp">
+            <HintPath>$(ATLYSS_MANAGED)\Assembly-CSharp.dll</HintPath>
+        </Reference>
+        <Reference Include="Mirror">
+            <HintPath>$(ATLYSS_MANAGED)\Mirror.dll</HintPath>
+        </Reference>
+    </ItemGroup>
+</Project>
