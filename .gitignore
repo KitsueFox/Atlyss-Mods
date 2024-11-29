@@ -4,9 +4,7 @@
 bin/
 obj/
 /packages
-Libs/*.dll
-Libs/*.db
-Libs-Alt/*.dll
-Libs-Alt/*.db
+MelonLoader-5.7/**
+MelonLoader-5.7/**
 *.user
 /Output

@@ -33,7 +33,8 @@ namespace BlackyFox.TextureReplacer.BML
         public static Dictionary<string, ReplacedTexture> loaded = new Dictionary<string, ReplacedTexture>();
         public static bool reloadChangedTextures;
         
-        private readonly string folderPath = Path.Combine(MelonEnvironment.UserDataDirectory, "CustomTextures\\");
+        //private readonly string folderPath = Path.Combine(MelonEnvironment.UserDataDirectory, "CustomTextures\\"); //Melonloader 0.6.6
+        private readonly string folderPath = Path.Combine(MelonUtils.UserDataDirectory, "CustomTextures\\"); //Melonloader 0.5.7
         private readonly string imageExtension = ".png";
 
         public override void OnInitializeMelon()

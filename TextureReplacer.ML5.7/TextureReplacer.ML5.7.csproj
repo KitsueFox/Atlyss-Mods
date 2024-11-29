@@ -20,7 +20,9 @@
         <Reference Include="System.Core"/>
         <Reference Include="System.Data"/>
         <Reference Include="System.Xml"/>
-        <PackageReference Include="LavaGang.MelonLoader" Version="0.5.7" IncludeAssets="compile"/>
+        <Reference Include="MelonLoader">
+            <HintPath>$(MsBuildThisFileDirectory)..\MelonLoader-5.7\MelonLoader.dll</HintPath>
+        </Reference>
     </ItemGroup>
     <ItemGroup>
         <Compile Include="Core.cs" />
