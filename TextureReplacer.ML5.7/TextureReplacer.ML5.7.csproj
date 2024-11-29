@@ -5,11 +5,11 @@
     <PropertyGroup>
         <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
         <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-        <ProjectGuid>{FD3630D8-19E6-4819-9B3B-FB27B336FA50}</ProjectGuid>
+        <ProjectGuid>{9f7455d1-d68b-4260-a1fe-9d1d388fa3f3}</ProjectGuid>
         <OutputType>Library</OutputType>
         <AppDesignerFolder>Properties</AppDesignerFolder>
-        <RootNamespace>BlackyFox.TextureReplacer</RootNamespace>
-        <AssemblyName>TextureReplacer</AssemblyName>
+        <RootNamespace>BlackyFox.TextureReplacer.BML</RootNamespace>
+        <AssemblyName>TextureReplacer-BML</AssemblyName>
         <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
         <FileAlignment>512</FileAlignment>
         <LangVersion>preview</LangVersion>
@@ -20,7 +20,7 @@
         <Reference Include="System.Core"/>
         <Reference Include="System.Data"/>
         <Reference Include="System.Xml"/>
-        <PackageReference Include="LavaGang.MelonLoader" Version="0.6.6" IncludeAssets="compile"/>
+        <PackageReference Include="LavaGang.MelonLoader" Version="0.5.7" IncludeAssets="compile"/>
     </ItemGroup>
     <ItemGroup>
         <Compile Include="Core.cs" />

@@ -1,9 +1,9 @@
 ﻿using System.Resources;
 using System.Reflection;
 using System.Runtime.InteropServices;
+using BlackyFox.FoxDenServerPlugin;
 using MelonLoader;
-using BlackyFox.TextureReplacer;
-using BuildInfo = BlackyFox.TextureReplacer.BuildInfo;
+using BuildInfo = BlackyFox.FoxDenServerPlugin.BuildInfo;
 
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
@@ -40,5 +40,5 @@ using BuildInfo = BlackyFox.TextureReplacer.BuildInfo;
 [assembly: NeutralResourcesLanguage("en")]
 
 // Melonloader
-[assembly: MelonInfo(typeof(TextureReplacer), "Texture Replacement", "0.0.1", "BlackyFox")]
+[assembly: MelonInfo(typeof(FoxDenServerPluginCore), "FoxDenServerPlugin", "0.0.1", "BlackyFox")]
 [assembly: MelonGame("KisSoft", "ATLYSS")]

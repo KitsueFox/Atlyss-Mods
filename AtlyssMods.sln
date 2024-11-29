@@ -2,6 +2,10 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TextureReplacer", "TextureReplacer\TextureReplacer.csproj", "{FD3630D8-19E6-4819-9B3B-FB27B336FA50}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FoxDenServerPlugin", "FoxDenServerPlugin\FoxDenServerPlugin.csproj", "{2FDAF492-E3A9-4680-99FA-98D0AC683B7E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TextureReplacer.ML5.7", "TextureReplacer.ML5.7\TextureReplacer.ML5.7.csproj", "{9F7455D1-D68B-4260-A1FE-9D1D388FA3F3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -12,5 +16,13 @@ Global
 		{FD3630D8-19E6-4819-9B3B-FB27B336FA50}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FD3630D8-19E6-4819-9B3B-FB27B336FA50}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FD3630D8-19E6-4819-9B3B-FB27B336FA50}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2FDAF492-E3A9-4680-99FA-98D0AC683B7E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2FDAF492-E3A9-4680-99FA-98D0AC683B7E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2FDAF492-E3A9-4680-99FA-98D0AC683B7E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2FDAF492-E3A9-4680-99FA-98D0AC683B7E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9F7455D1-D68B-4260-A1FE-9D1D388FA3F3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9F7455D1-D68B-4260-A1FE-9D1D388FA3F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9F7455D1-D68B-4260-A1FE-9D1D388FA3F3}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{9F7455D1-D68B-4260-A1FE-9D1D388FA3F3}.Release|Any CPU.Build.0 = Debug|Any CPU
 	EndGlobalSection
 EndGlobal

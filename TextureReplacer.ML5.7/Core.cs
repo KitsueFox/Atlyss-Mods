@@ -8,11 +8,11 @@ using System.Security.Cryptography;
 using UnityEngine;
 
 
-namespace BlackyFox.TextureReplacer
+namespace BlackyFox.TextureReplacer.BML
 {
     public static class BuildInfo
     {
-        public const string Name = "TextureReplacer";
+        public const string Name = "TextureReplacer - BepInEx.MelonLoader.Loader";
         public const string Author = "BlackyFox";
         public const string Company = null;
         public const string Version = "0.1.0.0";
